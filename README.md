@@ -9,6 +9,7 @@ Main functionality of this project is this: have a /coordinates endpoint which a
 To make things a bit more challenging, API should support:
 * more than one external geocoding provider (Google maps and Here maps) which would be called sequentially if first provider does not find that address
 * implement layer responsible for caching results to DB (MySQL) 
+* I should be able to use either whole stack (cache+here maps+google maps) or individual geocoder (google maps or here maps) or cached geocoder (cache+google maps for example)
 
 ## What this project already contains 
 
